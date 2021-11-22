@@ -28,7 +28,7 @@
             </p>
         </div>
     </div>
-    <form class="Form">
+    <form class="Form" id="contact">
         <div class="Form-content">
             <p class="Form__title">
                 Contáctame

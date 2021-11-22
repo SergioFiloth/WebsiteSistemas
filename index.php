@@ -18,6 +18,7 @@
             <ul class="Menu--list">
                 <li class="Menu--link">
                     <a href="who" class="Menu--link__link">¿Quien Soy?</a>
+                    <a href="who#contact" class="Menu--link__link">Contactame</a>
                 </li>
             </ul>
         </main>
@@ -50,22 +51,37 @@
             <div class="Works--card">
                 <img src="img/works/stratech.png" alt="Stratech Site" class="Works--card__img">
                 <div class="Works--card__footer">
-                    <p class="Works--footer__name">Stratech</p>
-                    <a href="https://pruebassergiof.000webhostapp.com/" class="Works--footer__link" target="_blank">Ver Sitio</a>
+                    <p class="Works--footer__description">
+                        Es la estructura de un entrenador del famoso juego de cartas: "Poker"
+                    </p>
+                    <div class="Works--footer__link-container">
+                        <p class="Works--footer__name">Stratech</p>
+                        <a href="https://pruebassergiof.000webhostapp.com/" class="Works--footer__link" target="_blank">Ver Sitio</a>
+                    </div>
                 </div>
             </div>
             <div class="Works--card">
                 <img src="img/works/plumaroja.png" alt="Pluma Roja Site" class="Works--card__img">
                 <div class="Works--card__footer">
-                    <p class="Works--footer__name">Papel Pluma Roja</p>
-                    <a href="https://papelplumaroja.netlify.app/" class="Works--footer__link" target="_blank">Ver Sitio</a>
+                    <p class="Works--footer__description">
+                        Es la landing page de un proveedor de papel para crear cada quien su propio tabaco a su gusto o como desee
+                    </p>
+                    <div class="Works--footer__link-container">
+                        <p class="Works--footer__name">Papel Pluma Roja</p>
+                        <a href="https://papelplumaroja.netlify.app/" class="Works--footer__link" target="_blank">Ver Sitio</a>
+                    </div>
                 </div>
             </div>
             <div class="Works--card">
                 <img src="img/works/sergiofiloth.png" alt="Sergio Filoth Site" class="Works--card__img">
                 <div class="Works--card__footer">
-                    <p class="Works--footer__name">Mi Sitio Web Personal</p>
-                    <a href="https://sergiofiloth.netlify.app/" class="Works--footer__link" target="_blank">Ver Sitio</a>
+                    <p class="Works--footer__description">
+                        Es mi sitio web principal, de momento siendo solo una lading para que mis clientes puedan conocer de mi y de mi trabajo.
+                    </p>
+                    <div class="Works--footer__link-container">
+                        <p class="Works--footer__name">Mi Sitio Web Personal</p>
+                        <a href="https://sergiofiloth.netlify.app/" class="Works--footer__link" target="_blank">Ver Sitio</a>
+                    </div>
                 </div>
             </div>
         </div>

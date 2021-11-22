@@ -147,6 +147,8 @@ a {
     width: 100%;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.5);
     transition: transform .3s;
+    display: flex;
+    flex-direction: column;
 }
 
 .Works--card:hover {
@@ -159,7 +161,18 @@ a {
 }
 
 .Works--card__footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: .5rem 1rem;
+}
+
+.Works--footer__description {
+    margin-bottom: 1rem;
+}
+
+.Works--footer__link-container {
     display: flex;
     justify-content: space-between;
 }
