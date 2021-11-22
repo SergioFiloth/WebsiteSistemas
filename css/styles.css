@@ -30,7 +30,11 @@ a {
 }
 
 :root {
-    --principal: #4662DB;
+    --background-body: #fefefe;
+    --principal: #4662db;
+    --background-btn: var(--principal);
+    --text-color: #333333;
+    --color-border-error: #bf3f3f;
 }
 
 .Hero {
@@ -204,4 +208,168 @@ a {
     padding: 2rem;
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+
+label,
+input,
+textarea {
+    display: inline-block;
+    margin-bottom: 1rem;
+    width: 100%;
+    outline: none;
+}
+
+input,
+textarea {
+    border: 1px solid transparent;
+    padding: 1rem .8rem;
+    color: var(--color-text);
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: border .3s;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+textarea {
+    overflow: auto;
+    box-shadow: none;
+    resize: none;
+}
+
+label {
+    color: #fff;
+}
+
+.Form span {
+    margin-left: .3em;
+    color: #000;
+}
+
+input.btn {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    transition: background-color .6s, color .6s;
+}
+
+.btn {
+    background-color: var(--background-btn);
+}
+
+input.btn {
+    background-color: #ffffff;
+    color: var(--principal);
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: var(--principal);
+}
+
+input.btn:hover {
+    color: var(--text-color);
+}
+
+.Form {
+    background-color: var(--principal);
+    padding: 2rem 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Form__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.Form-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Form-content--name {
+    margin-bottom: 1rem;
+}
+
+.Form-content--email {
+    margin-bottom: 1rem;
+}
+
+.Form-content--message {
+    margin-bottom: 2rem;
+}
+
+.Form__textarea {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.Form__textarea--amount {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.textarea {
+    margin-bottom: 0;
+    min-height: 168px;
+}
+
+/* 
+.Form-content--error {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Form-content--error__element {
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 0;
+    color: var(--text-color);
+    font-size: 1rem;
+    background-color: var(--background-body);
+    border-radius: 5px;
+} */
+
+@media screen and (min-width: 768px) {
+    input.btn {
+        width: auto;
+    }
+
+    .Form-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+
+    .Form-content--name {
+        width: 50%;
+        padding-right: 1rem;
+    }
+
+    .Form-content--email {
+        width: 50%;
+    }
+
+    .Form-content--message {
+        width: 100%;
+    }
 }
