@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --principal: #4662DB;
+}
+
+.Hero {
+    height: 100vh;
+    background: linear-gradient(270deg, rgba(71, 106, 220, 0.6) 0%, rgba(176, 107, 179, 0.6) 100%),
+        url(../img/background--hero.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.Hero--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    align-items: center;
+}
+
+.Hero__title {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.Hero__img {
+    width: 100%;
+}
+
+.Menu {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+}
+
+.Menu--list {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Menu--link__link {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.Info {
+    padding: 2rem;
+}
+
+.Info__title,
+.Works__title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Info--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    align-items: center;
+}
+
+.Info__img {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.Info__description {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.Slogan {
+    background-color: var(--principal);
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.Works {
+    padding: 3rem;
+}
+
+.Works--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.Works--card {
+    width: 100%;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.5);
+    transition: transform .3s;
+}
+
+.Works--card:hover {
+    transform: scale(1.1);
+}
+
+.Works--card__img {
+    display: flex;
+    width: 100%;
+}
+
+.Works--card__footer {
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Works--footer__name {
+    font-weight: 700;
+}
+
+.Works--footer__link {
+    color: var(--principal);
+    font-weight: 500;
+    text-decoration: none;
+}
