@@ -25,6 +25,10 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     --principal: #4662DB;
 }
@@ -51,6 +55,7 @@ ul {
     font-size: 4rem;
     width: 100%;
     text-align: center;
+    color: #fff;
 }
 
 .Hero__img {
@@ -73,6 +78,12 @@ ul {
 .Menu--link__link {
     font-size: 1.1rem;
     color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: border .15s;
+}
+
+.Menu--link__link:hover {
+    border-bottom: 1px solid currentColor;
 }
 
 .Info {
@@ -83,7 +94,6 @@ ul {
 .Works__title {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 2rem;
 }
 
 .Info--container {
@@ -116,6 +126,11 @@ ul {
 
 .Works {
     padding: 3rem;
+}
+
+.Works__title {
+    margin-bottom: 3rem;
+
 }
 
 .Works--container {
@@ -153,4 +168,40 @@ ul {
     color: var(--principal);
     font-weight: 500;
     text-decoration: none;
+}
+
+.Footer {
+    padding: 2rem;
+    background-color: #4f4f4f;
+    display: grid;
+    gap: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.Footer--info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.Footer--info-container {
+    display: grid;
+    gap: 1rem;
+    font-size: 1.05rem;
+}
+
+.Footer__hr {
+    background-color: #828282;
+    height: .5rem;
+    width: 100%;
+}
+
+.Footer--own-name {
+    display: grid;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }

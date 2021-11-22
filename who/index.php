@@ -19,6 +19,9 @@
             </li>
         </ul>
     </main>
+    <?php
+        include "../templates/Footer.php"
+    ?>
 </body>
 
 </html>
