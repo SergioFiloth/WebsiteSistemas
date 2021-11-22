@@ -50,7 +50,7 @@
             Mis Ultimos trabajos
         </h2>
         <div class="Works--container">
-            <div class="Works--card">
+            <a href="https://pruebassergiof.000webhostapp.com/" target="_blank" class="Works--card">
                 <img src="img/works/stratech.png" alt="Stratech Site" class="Works--card__img">
                 <div class="Works--card__footer">
                     <p class="Works--footer__description">
@@ -58,11 +58,10 @@
                     </p>
                     <div class="Works--footer__link-container">
                         <p class="Works--footer__name">Stratech</p>
-                        <a href="https://pruebassergiof.000webhostapp.com/" class="Works--footer__link" target="_blank">Ver Sitio</a>
                     </div>
                 </div>
-            </div>
-            <div class="Works--card">
+            </a>
+            <a href="https://papelplumaroja.netlify.app/" target="_blank" class="Works--card">
                 <img src="img/works/plumaroja.png" alt="Pluma Roja Site" class="Works--card__img">
                 <div class="Works--card__footer">
                     <p class="Works--footer__description">
@@ -70,11 +69,10 @@
                     </p>
                     <div class="Works--footer__link-container">
                         <p class="Works--footer__name">Papel Pluma Roja</p>
-                        <a href="https://papelplumaroja.netlify.app/" class="Works--footer__link" target="_blank">Ver Sitio</a>
                     </div>
                 </div>
-            </div>
-            <div class="Works--card">
+            </a>
+            <a href="https://sergiofiloth.netlify.app/"target="_blank" class="Works--card">
                 <img src="img/works/sergiofiloth.png" alt="Sergio Filoth Site" class="Works--card__img">
                 <div class="Works--card__footer">
                     <p class="Works--footer__description">
@@ -82,10 +80,9 @@
                     </p>
                     <div class="Works--footer__link-container">
                         <p class="Works--footer__name">Mi Sitio Web Personal</p>
-                        <a href="https://sergiofiloth.netlify.app/" class="Works--footer__link" target="_blank">Ver Sitio</a>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <?php
