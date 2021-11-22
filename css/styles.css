@@ -105,6 +105,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
     align-items: center;
+    position: relative;
 }
 
 .Info__img {
@@ -117,6 +118,25 @@ a {
     font-size: 1.3rem;
     text-align: center;
     font-weight: 500;
+}
+
+.Info--description__start {
+    margin-right: 1rem;
+}
+
+.Info--container__life {
+    align-items: initial;
+}
+
+.Info--description__life {
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.65rem;
+}
+
+.Info--img__life {
+    top: 0;
+    position: sticky;
 }
 
 .Slogan {
