@@ -18,7 +18,9 @@
             <ul class="Menu--list">
                 <li class="Menu--link">
                     <a href="who" class="Menu--link__link">¿Quien Soy?</a>
-                    <a href="who#contact" class="Menu--link__link">Contactame</a>
+                </li>
+                <li class="Menu--link">
+                    <a href="who#contact" class="Menu--link__link">Contáctame</a>
                 </li>
             </ul>
         </main>
