@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
 h1,
 h2,
 h3,
@@ -14,11 +23,6 @@ h5,
 h6 {
     padding: 0;
     margin: 0;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    position: relative;
 }
 
 ul {
